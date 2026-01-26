@@ -26,5 +26,3 @@ app.get("/news",(req, res) => {
 app.listen(port, () => {
     console.log(`Example app listening at localhost:${port}`)
 })
-
-// TypeError: handlebars is not a function
